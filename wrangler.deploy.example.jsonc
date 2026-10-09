@@ -1,0 +1,14 @@
+{
+  "name": "curious-vsauce",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "no_bundle": true,
+  "rules": [{"type": "ESModule", "globs": ["**/*.js", "**/*.mjs"]}],
+  "assets": {"directory": "dist/client"},
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "curious-questions",
+    "database_id": "REPLACE_WITH_YOUR_OWN_D1_DATABASE_ID"
+  }]
+}
